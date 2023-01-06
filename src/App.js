@@ -7,7 +7,7 @@ import ProductList from './components/ProductList';
 import Basket from './components/Basket';
 import About from './pages/About';
 import data from './models/data.json';
-import ReactPaginate from 'react-paginate';
+//import ReactPaginate from 'react-paginate';
 
 function App() {
   
