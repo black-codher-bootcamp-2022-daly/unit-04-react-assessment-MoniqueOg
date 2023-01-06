@@ -1,8 +1,8 @@
 # React Assessment
 
-[TODO: Replace with your Netflify status badge]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ad94390-03de-4b7d-9e64-7dfac2b79f5d/deploy-status)](https://app.netlify.com/sites/reactitunes/deploys)
 
-[TODO: Replace with a link to your Netlify deployed solution here]
+https://reactitunes.netlify.app/
 
 For your unit 4 assessment you will be building a Media Store App that allows users to search the iTunes store for music, videos, TV shows and other media types.
 
