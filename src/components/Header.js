@@ -7,8 +7,8 @@ const Header = (props) => {
     <div id="header">
         <h1>Media Store</h1>
         <div id="NavLinks">
-          <Link to="/"> Home </Link> |
-          <Link to="/about"> About </Link> |
+          <Link to="/" id="homelink"> Home </Link> |
+          <Link to="/about" id="aboutlink"> About </Link> |
           <Link to="/basket" id="basketlink"> Basket: {props.basketCount} item{props.basketCount===1?"":"s"}</Link>
         </div>
     </div>
