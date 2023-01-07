@@ -1,9 +1,9 @@
 import React from 'react';
 
-let formatter = new Intl.NumberFormat('en-GB', {
-  style: 'currency',
-  currency: 'GBP'
-});
+// let formatter = new Intl.NumberFormat('en-GB', {
+//   style: 'currency',
+//   currency: 'GBP'
+// });
 
 const BasketTotal = (props) => {
   return (
