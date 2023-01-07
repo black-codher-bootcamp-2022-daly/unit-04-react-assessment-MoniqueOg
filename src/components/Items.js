@@ -1,6 +1,5 @@
-import React, {useState } from 'react';
-import ReactDOM from 'react-dom';
-import ReactPaginate from 'react-paginate';
+import React from 'react';
+
 
 // Example items, to simulate fetching from another resources.
 const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
@@ -11,7 +10,7 @@ const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
             {currentItems &&
                 currentItems.map((item) => (
                     <div>
-                       
+                        <h1>Item {items}</h1>
                     </div>
                 ))}
         </>

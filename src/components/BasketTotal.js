@@ -7,9 +7,10 @@ let formatter = new Intl.NumberFormat('en-GB', {
 
 const BasketTotal = (props) => {
   return (
-    <div id="baskettotal">
+    /*<div id="baskettotal">
       {formatter.format(Math.abs(props.basketTotal))}
-    </div>
+    </div>*/
+    <div>{((props.basketTotal))}</div>
   );
 }
 
