@@ -51,8 +51,10 @@ function App() {
 
   useEffect(() => {
     let basketCountLabel = `Basket: ${basket.length} item` + (basket.length === 1 ? "" : "s");
-    document.title = basketCountLabel;
-    document.getElementById("basketlink").innerText = basketCountLabel;
+    if (document) {
+      document.title = basketCountLabel;
+      document.getElementById("basketlink").innerText = basketCountLabel;
+    }
   });
 
   return (
